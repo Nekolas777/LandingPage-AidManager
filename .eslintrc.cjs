@@ -12,10 +12,14 @@ module.exports = {
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh'],
   rules: {
+    // Desactiva la regla que prohíbe el uso de "target=_blank" en JSX
     'react/jsx-no-target-blank': 'off',
+    "no-unused-vars": "off",
+    "react/prop-types": "off",
+    // Configuración específica para react-refresh
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
     ],
   },
-}
+};
