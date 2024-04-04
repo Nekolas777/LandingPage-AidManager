@@ -1,0 +1,56 @@
+@keyframes slide-to-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes slide-to-right {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.scroller {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.scroller::before,
+.scroller::after {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    z-index: 10;
+    content: "";
+}
+
+.scroller::before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.scroller::after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+
+.scroller:hover .scroller__inner  {
+    animation-play-state: paused;
+}
+
+.scroller__inner.to-right {
+    animation: 15s slide-to-right infinite linear;
+}
+
+.scroller__inner.to-left {
+    animation: 15s slide-to-left infinite linear;
+}

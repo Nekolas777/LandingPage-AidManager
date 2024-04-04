@@ -2,9 +2,9 @@ import { Button } from "../Button/Button"
 import { NavLink } from "./NavLink"
 
 const links = [
-    { name: 'Home', path: "#home" },
-    { name: 'About Us', path: "#about-us" },
-    { name: 'Organizations', path: "#organizations" },
+    { name: 'Home', path: "#" },
+    { name: 'About Us', path: "#about_us" },
+    { name: 'Organizations', path: "#brands-carousel" },
     { name: 'Testimonials', path: "#testimonials" },
 ]
 
