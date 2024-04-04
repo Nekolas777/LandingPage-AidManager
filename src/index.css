@@ -55,4 +55,11 @@ body {
         ease-linear;
   }
 
+  /* for tezzzting */
+  .border {
+    @apply
+      border-[1px]
+      border-red-500
+  }
+
 }

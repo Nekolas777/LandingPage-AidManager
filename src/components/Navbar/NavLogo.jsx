@@ -6,7 +6,7 @@ export const NavLogo = () => {
             preserveAspectRatio="xMidYMid meet">
 
             <g transform="translate(0.000000,109.000000) scale(0.100000,-0.100000)"
-                fill="#008A65" stroke="none">
+                fill="#033D2F" stroke="none">
                 <path d="M733 1065 c-79 -17 -142 -45 -205 -91 -55 -41 -477 -537 -505 -593
 -9 -20 -19 -64 -21 -99 -4 -52 0 -71 23 -118 62 -126 218 -179 343 -115 37 19
 95 75 104 101 2 8 27 -3 70 -32 189 -130 438 -127 611 6 l49 37 40 -46 c59
