@@ -2,5 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
+/* importado de google fonts */
 
+:root {
+  /* palet color */
+  --primary-color: #3652AD;
+  --secondary-color: #6CFBCE;
+  --third-color: #20C198;
+  --footer-color: #008A65;
+  --error-color: hsl(0, 100%, 63%);
 
+  /* fonts */ 
+  --poppins: "Poppins", sans-serif;
+  --lora: "Lora", serif;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  color: #333;
+  position: relative;
+}
+
+/* components for tailwind */
+@layer components {
+
+  .container-nav {
+    @apply w-11/12 max-w-[1650px] mx-auto my-0;
+  }
+
+  .container-section {
+    @apply w-11/12 max-w-7xl mx-auto my-0
+  }
+
+  .underline-effect {
+    @apply
+        after:content-none
+        md:after:content-['']
+        after:w-0
+        after:h-[2px]
+        after:absolute
+        after:m-auto
+        after:bottom-[-4px]
+        after:left-0
+        after:block
+        hover:after:w-full
+        hover:after:transition-all
+        duration-300
+        ease-linear;
+  }
+
+}
