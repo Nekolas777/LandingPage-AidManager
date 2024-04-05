@@ -1,2 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* styles for react-slide :p */
+
+.slick-slide>div {
+    margin-right: 20px;
+    /* Apply margin to both sides */
+}
+
+.slick-dots li button:before {
+    font-size: 20px; /* Ajusta este valor según tus necesidades */
+    margin-top: 15px; /* Añade un margen superior */
+}

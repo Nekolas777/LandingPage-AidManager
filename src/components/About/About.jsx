@@ -8,7 +8,7 @@ export const About = () => {
             <div className="px-16 border-[1px] border-red-400 container-section grid grid-rows-auto grid-cols-2 gap-5">
                 <div className='flex flex-col items-start justify-center gap-10'>
                     <h1 className='text-slate-900 text-5xl font-bold font-lora tracking-normal'>What do we do?</h1>
-                    <p className='text-xl text-balance tracking-normal font-poppins leading-8'>At AidManager, we're a dedicated team commited to making a possitive difference in
+                    <p className='text-xl text-balance tracking-wide font-poppins leading-8'>At AidManager, we're a dedicated team commited to making a possitive difference in
                         the world. By collaborating with charitable organizations and partners.</p>
                     <div className='flex flex-row gap-3items-center justify-center'>
                         <a
