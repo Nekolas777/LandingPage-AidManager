@@ -38,6 +38,10 @@ body {
     @apply w-11/12 max-w-7xl mx-auto my-0
   }
 
+  .container-footer {
+    @apply w-10/12 max-w-7xl mx-auto my-0
+}
+
   .underline-effect {
     @apply
         after:content-none
