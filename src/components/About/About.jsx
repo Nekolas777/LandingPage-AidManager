@@ -5,8 +5,9 @@ import SlideOrganization1 from '../../assets/about-slide-organization-1.png'
 export const About = () => {
     return (
         <section id="about_us" className="bg-slate-200 py-20">
-            <div className="px-16 border-[1px] border-red-400 container-section grid grid-rows-auto grid-cols-2 gap-5">
-                <div className='flex flex-col items-start justify-center gap-10'>
+            <div className="px-0 lg:px-16 container-section grid grid-rows-custom 
+                md:grid-rows-1 grid-cols-1 md:grid-cols-2 gap-10 md:gap-5">
+                <div className='flex flex-col text-center md:text-start items-center md:items-start justify-center gap-10'>
                     <h1 className='text-slate-900 text-5xl font-bold font-lora tracking-normal'>What do we do?</h1>
                     <p className='text-xl text-balance tracking-wide font-poppins leading-8'>At AidManager, we're a dedicated team commited to making a possitive difference in
                         the world. By collaborating with charitable organizations and partners.</p>
@@ -26,7 +27,7 @@ export const About = () => {
                     </div>
                 </div>
                 <div className='flex flex-col gap-6 relative'>
-                    <img className='w-full h-full' src={Slide1} />
+                    <img className='w-full h-full sm:w-11/12 sm:h-11/12 mx-auto' src={Slide1} />
                     <div className='flex flex-row items-center justify-center gap-4'>
                         <div className='cursor-pointer w-6 h-6 border-[1px] bg-slate-700 opacity-[.8] border-black rounded-full'></div>
                         <div className='cursor-pointer w-6 h-6 border-[1px] border-black rounded-full'></div>

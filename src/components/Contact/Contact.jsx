@@ -4,7 +4,8 @@ import phoneIcon from '../../assets/icon-phone.svg';
 export const Contact = () => {
     return (
         <section className="bg-slate-200 py-20">
-            <div className="container-section grid grid-rows-auto grid-cols-2 gap-12">
+            <div className="container-section grid grid-rows-2 md:grid-rows-1 
+                grid-cols-1 md:grid-cols-2 gap-12">
                 <div className="font-poppins flex flex-col gap-6 col">
                     <h1 className="font-lora text-5xl text-black font-medium tracking-widem">Contact us</h1>
                     <p className="mt-3 text-lg text-balance leading-relaxed">
@@ -35,7 +36,7 @@ export const Contact = () => {
                     </div>
                 </div>
                 <form className='border-slate-400 border-[1px] px-6 py-8 font-poppins flex flex-col gap-6 bg-white'>
-                    <div className='flex flex-row items-stretch gap-5'>
+                    <div className='flex flex-row flex-wrap xl:flex-nowrap items-stretch gap-5'>
                         <div className='flex flex-col gap-2 w-full'>
                             <h2>First Name <span className='text-sm text-red-700'>*</span></h2>
                             <input className='p-2 bg-gray rounded-sm' type='text' name='name' placeholder='Nekolas' />

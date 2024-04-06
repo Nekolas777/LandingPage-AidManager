@@ -2,6 +2,7 @@ import milwaukeeLogo from '../../assets/milwaukee-logo.svg';
 import compassLogo from '../../assets/compass-logo.svg';
 import girlsLogo from '../../assets/girls-logo.svg';
 import pacificLogo from '../../assets/pacific-logo.svg';
+//import unitedLogo from '../../assets/nekohub-logo.svg';
 import unitedLogo from '../../assets/united-logo.svg';
 
 import { BrandLogo } from './BrandLogo';

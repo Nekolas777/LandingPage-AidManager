@@ -12,3 +12,14 @@
     font-size: 20px; /* Ajusta este valor según tus necesidades */
     margin-top: 15px; /* Añade un margen superior */
 }
+
+@media screen and (max-width: 768px) {
+    .slick-slide>div {
+        margin-right: 0px;
+        /* Apply margin to both sides */
+    }
+    
+    .slick-dots li button:before {
+        margin-top: 15px; /* Añade un margen superior */
+    }   
+}

@@ -42,7 +42,7 @@
     background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
 }
 
-
+/* problablemente lo quite, depende del pueblo uwu */
 .scroller:hover .scroller__inner  {
     animation-play-state: paused;
 }

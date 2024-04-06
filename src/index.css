@@ -66,4 +66,9 @@ body {
       border-red-500
   }
 
+  .grid-rows-custom {
+    @apply grid;
+    grid-template-rows: auto 1fr;
+  }
+
 }
