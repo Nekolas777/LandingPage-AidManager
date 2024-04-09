@@ -4,13 +4,13 @@
     }
 
     to {
-        transform: translateX(-400%);
+        transform: translateX(-100%);
     }
 }
 
 @keyframes slide-to-right {
     from {
-        transform: translateX(-400%);
+        transform: translateX(-100%);
     }
 
     to {
@@ -58,6 +58,26 @@
 }
 
 @media screen and (max-width: 475px) {
+
+    @keyframes slide-to-left {
+        from {
+            transform: translateX(0);
+        }
+    
+        to {
+            transform: translateX(-400%);
+        }
+    }
+    
+    @keyframes slide-to-right {
+        from {
+            transform: translateX(-400%);
+        }
+    
+        to {
+            transform: translateX(0);
+        }
+    }
 
     .scroller::before,
     .scroller::after {
