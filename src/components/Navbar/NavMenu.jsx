@@ -13,10 +13,10 @@ export const NavMenu = ({ header, nav }) => {
     return (
         <div className={`w-11/12 fixed opacity-100 mx-auto
           ${nav ? 'top-36 translate-x-[0%] opacity-100 transition-all duration-300 ease-out' : 'translate-x-[-120%] opacity-0'} 
-          md:relative md:flex md:h-auto md:w-auto md:mx-0 md:transform-none md:content-none md:transition-none`}>
+          lg:relative lg:flex lg:h-auto lg:w-auto lg:mx-0 lg:transform-none lg:content-none lg:transition-none`}>
             <ul className={`h-full bg-slate-100 flex flex-col place-items-center gap-6 py-6 rounded-lg 
-              md:relative md:flex md:flex-row md:gap-12 md:rounded-none md:py-0 md:bg-transparent
-              font-poppins text-xl ${header? "text-dark-green md:text-slate-100": "text-dark-green"}`}>
+              lg:relative lg:flex lg:flex-row lg:gap-12 lg:rounded-none lg:py-0 lg:bg-transparent
+              font-poppins text-xl ${header? "text-dark-green lg:text-slate-100": "text-dark-green"}`}>
                 {
                     links.map(link =>
                         <NavLink

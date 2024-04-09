@@ -6,6 +6,8 @@ import { NavMenu } from "./NavMenu";
 import { HamburguerMenu } from "./HamburguerMenu";
 import { CloseMenu } from "./CloseMenu";
 
+const body = document.body;
+
 export const Navbar = () => {
 
     // for hamburguer menu
@@ -14,6 +16,7 @@ export const Navbar = () => {
 
     const toogleNav = () => {
         setNav(!nav);
+        body.classList.toggle('overlay');
     }
 
     const changeBackground = () => {
@@ -42,7 +45,7 @@ export const Navbar = () => {
                     header={ header }
                     nav={ nav }
                 />
-                <div onClick={ toogleNav } className="block md:hidden cursor-pointer">
+                <div onClick={ toogleNav } className="block lg:hidden cursor-pointer">
                     {
                         nav ? 
                         <CloseMenu 

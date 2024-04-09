@@ -5,7 +5,7 @@ export const Hero = () => {
     return (
         <section id="hero" className="w-full bg-slate-300">
             <div className="py-44 sm:py-[230px] container-section font-poppins">
-                <div className="relative z-50 flex flex-col items-center justify-center text-center gap-8">
+                <div className="relative z-30 flex flex-col items-center justify-center text-center gap-8">
                     <h1 className="text-white text-6xl sm:text-7xl font-sans font-semibold tracking-wide">
                         AidManager
                     </h1>
