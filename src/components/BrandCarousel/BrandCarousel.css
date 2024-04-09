@@ -43,9 +43,9 @@
 }
 
 /* problablemente lo quite, depende del pueblo uwu */
-.scroller:hover .scroller__inner  {
+/* .scroller:hover .scroller__inner  {
     animation-play-state: paused;
-}
+} */
 
 .scroller__inner.to-right {
     animation: 15s slide-to-right infinite linear;

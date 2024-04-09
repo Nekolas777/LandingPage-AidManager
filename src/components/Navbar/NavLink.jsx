@@ -2,7 +2,7 @@
 export const NavLink = ({ name, path }) => {
 
     return (
-        <li className="text-secondary tracking-wide self-center md:text-green-700
+        <li className="tracking-wide self-center
             md:font-light md:transform-none">
             <a
                 style={{ position: 'relative' }}

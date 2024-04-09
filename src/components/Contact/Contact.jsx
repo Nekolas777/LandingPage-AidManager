@@ -35,7 +35,8 @@ export const Contact = () => {
                         />
                     </div>
                 </div>
-                <form className='border-slate-400 border-[1px] px-6 py-8 font-poppins flex flex-col gap-6 bg-white'>
+                <form className='border-slate-400 border-[1px] px-6 py-8 font-poppins flex flex-col gap-6 bg-white'
+                    onSubmit={(e) => e.preventDefault()}>
                     <div className='flex flex-row flex-wrap xl:flex-nowrap items-stretch gap-5'>
                         <div className='flex flex-col gap-2 w-full'>
                             <h2>First Name <span className='text-sm text-red-700'>*</span></h2>
