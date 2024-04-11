@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import { TestimonialCard } from './TestimonialCard';
 
 // importamos data que es un array de objetos con la info de cada testimonios :v
-import { cards } from '../../data/data';
+import { cards } from '../../data/testimonials-data';
 
 import './Testimonials.css';
 
